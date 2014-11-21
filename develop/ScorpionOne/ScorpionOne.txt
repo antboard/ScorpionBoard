@@ -1,0 +1,48 @@
+Configuration	ScorpionOne
+STM32CubeMX 	4.3.1
+Date	11/21/2014
+MCU	STM32F302RCTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+USB	Device (FS)	USB_DM	PA11
+USB	Device (FS)	USB_DP	PA12
+
+
+
+Pin Nb	PINs	FUNCTIONs
+44	PA11	USB_DM
+45	PA12	USB_DP
+46	PA13	SYS_JTMS-SWDIO
+49	PA14	SYS_JTCK-SWCLK
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : ScorpionOne
+Project Folder : C:\icecut\github\ScorpionBoard\develop\ScorpionOne
+Toolchain / IDE : EWARM 6.70
+Firmware Package Name and Version : STM32Cube FW_F3 V1.0.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per IP : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+
