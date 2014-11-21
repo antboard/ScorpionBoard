@@ -1,5 +1,5 @@
 #MicroXplorer Configuration settings - do not modify
-#Fri Nov 21 16:02:54 CST 2014
+#Fri Nov 21 16:33:24 CST 2014
 File.Version=4
 KeepUserPlacement=false
 Mcu.Family=STM32F3
@@ -49,7 +49,7 @@ ProjectManager.FreePins=false
 ProjectManager.HalAssertFull=false
 ProjectManager.KeepUserCode=true
 ProjectManager.LastFirmware=true
-ProjectManager.LibraryCopy=2
+ProjectManager.LibraryCopy=0
 ProjectManager.ProjectBuild=false
 ProjectManager.ProjectFileName=ScorpionOne.ioc
 ProjectManager.ProjectName=ScorpionOne

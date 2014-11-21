@@ -1,0 +1,15 @@
+*.out
+*.sim
+*.o
+*.map
+*.pbi
+*.cout
+*.pbd
+*.browse
+*.wsdt
+*.ewt
+*.dep
+*.crun
+*.dni
+*.bat
+*.tmp

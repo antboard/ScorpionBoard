@@ -1,7 +1,7 @@
 /**
   ******************************************************************************
   * File Name          : main.c
-  * Date               : 21/11/2014 16:02:55
+  * Date               : 21/11/2014 16:33:25
   * Description        : Main program body
   ******************************************************************************
   *
@@ -132,8 +132,8 @@ void SystemClock_Config(void)
 void assert_failed(uint8_t* file, uint32_t line)
 {
   /* USER CODE BEGIN 6 */
-  /* User can add his own implementation to report the file name and line number,
-    ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
+/* User can add his own implementation to report the file name and line number,
+ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
   /* USER CODE END 6 */
 
 }
