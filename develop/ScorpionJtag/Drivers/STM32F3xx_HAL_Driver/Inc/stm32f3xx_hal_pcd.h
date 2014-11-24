@@ -261,10 +261,10 @@ typedef struct
 /* Internal macros -----------------------------------------------------------*/
 
 /* SetENDPOINT */ // fixme
-#define PCD_SET_ENDPOINT(USBx, bEpNum,wRegValue)  (*(&USBx->EP0R + bEpNum * 4)= (uint16_t)wRegValue)
+#define PCD_SET_ENDPOINT(USBx, bEpNum,wRegValue)  (*(&USBx->EP0R + bEpNum * 2)= (uint16_t)wRegValue)
 
 /* GetENDPOINT */ // fixme
-#define PCD_GET_ENDPOINT(USBx, bEpNum)        (*(&USBx->EP0R + bEpNum * 4))
+#define PCD_GET_ENDPOINT(USBx, bEpNum)        (*(&USBx->EP0R + bEpNum * 2))
 
 
 
